@@ -1,9 +1,11 @@
+/* '*' selects all HTML elements and applies a style to them */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Applies a white background to entire page */
 body {
     background-color: #d9dcd6;
 }
@@ -26,6 +28,7 @@ span {
 
 nav {
     padding-top: 15px;
+    /* moves navigation element 20px from the right of its parent element */
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,6 +37,7 @@ nav {
 
 nav a {
     color: #ffffff;
+    /* removes blue underline found in links */
     text-decoration: none;
 }
 
@@ -55,6 +59,7 @@ header nav ul li {
     background-position: center;
 }
 
+/* float left & right are used in the 'content' section to adjust placement of the images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -64,6 +69,7 @@ header nav ul li {
     float: right;
     margin-left: 25px;
 }
+/* end of float comment */
 
 .content {
     width: 75%;
@@ -104,7 +110,7 @@ header nav ul li {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* seleceting the h3 element withing the section that has a class of 'benefits' */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -126,3 +132,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* End of CSS */
